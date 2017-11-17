@@ -28,7 +28,8 @@ class PlayState extends FlxState
 		super.create();
 		levelSetup();
 		add(tilemap);
-		
+		player = new Player(100, 100);
+		add(player);
 		
 	}
 

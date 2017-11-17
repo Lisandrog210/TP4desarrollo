@@ -42,31 +42,31 @@ class ApplicationMain {
 		types.push (lime.Assets.AssetType.TEXT);
 		
 		
-		urls.push ("assets/images/3.png");
+		urls.push ("assets/images/diagdown.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/images/3_diagdown.png");
+		urls.push ("assets/images/diagup.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/images/3_diagup.png");
+		urls.push ("assets/images/down.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/images/3_north.png");
+		urls.push ("assets/images/north.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/images/3_side.png");
+		urls.push ("assets/images/side.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/images/3_south.png");
+		urls.push ("assets/images/south.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
-		urls.push ("assets/images/3_south2.png");
+		urls.push ("assets/images/south2.png");
 		types.push (lime.Assets.AssetType.IMAGE);
 		
 		
@@ -167,7 +167,7 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "17",
+			build: "32",
 			company: "Lisandro",
 			file: "TP4",
 			fps: 60,

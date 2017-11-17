@@ -81,20 +81,20 @@ class DefaultAssetLibrary extends AssetLibrary {
 		type.set ("assets/data/lvl1.oel", AssetType.TEXT);
 		className.set ("assets/data/lvl1.oep", __ASSET__assets_data_lvl1_oep);
 		type.set ("assets/data/lvl1.oep", AssetType.TEXT);
-		className.set ("assets/images/3.png", __ASSET__assets_images_3_png);
-		type.set ("assets/images/3.png", AssetType.IMAGE);
-		className.set ("assets/images/3_diagdown.png", __ASSET__assets_images_3_diagdown_png);
-		type.set ("assets/images/3_diagdown.png", AssetType.IMAGE);
-		className.set ("assets/images/3_diagup.png", __ASSET__assets_images_3_diagup_png);
-		type.set ("assets/images/3_diagup.png", AssetType.IMAGE);
-		className.set ("assets/images/3_north.png", __ASSET__assets_images_3_north_png);
-		type.set ("assets/images/3_north.png", AssetType.IMAGE);
-		className.set ("assets/images/3_side.png", __ASSET__assets_images_3_side_png);
-		type.set ("assets/images/3_side.png", AssetType.IMAGE);
-		className.set ("assets/images/3_south.png", __ASSET__assets_images_3_south_png);
-		type.set ("assets/images/3_south.png", AssetType.IMAGE);
-		className.set ("assets/images/3_south2.png", __ASSET__assets_images_3_south2_png);
-		type.set ("assets/images/3_south2.png", AssetType.IMAGE);
+		className.set ("assets/images/diagdown.png", __ASSET__assets_images_diagdown_png);
+		type.set ("assets/images/diagdown.png", AssetType.IMAGE);
+		className.set ("assets/images/diagup.png", __ASSET__assets_images_diagup_png);
+		type.set ("assets/images/diagup.png", AssetType.IMAGE);
+		className.set ("assets/images/down.png", __ASSET__assets_images_down_png);
+		type.set ("assets/images/down.png", AssetType.IMAGE);
+		className.set ("assets/images/north.png", __ASSET__assets_images_north_png);
+		type.set ("assets/images/north.png", AssetType.IMAGE);
+		className.set ("assets/images/side.png", __ASSET__assets_images_side_png);
+		type.set ("assets/images/side.png", AssetType.IMAGE);
+		className.set ("assets/images/south.png", __ASSET__assets_images_south_png);
+		type.set ("assets/images/south.png", AssetType.IMAGE);
+		className.set ("assets/images/south2.png", __ASSET__assets_images_south2_png);
+		type.set ("assets/images/south2.png", AssetType.IMAGE);
 		className.set ("assets/images/tilemap.png", __ASSET__assets_images_tilemap_png);
 		type.set ("assets/images/tilemap.png", AssetType.IMAGE);
 		className.set ("assets/music/music-goes-here.txt", __ASSET__assets_music_music_goes_here_txt);
@@ -130,31 +130,31 @@ class DefaultAssetLibrary extends AssetLibrary {
 		path.set (id, id);
 		
 		type.set (id, AssetType.TEXT);
-		id = "assets/images/3.png";
+		id = "assets/images/diagdown.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/3_diagdown.png";
+		id = "assets/images/diagup.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/3_diagup.png";
+		id = "assets/images/down.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/3_north.png";
+		id = "assets/images/north.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/3_side.png";
+		id = "assets/images/side.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/3_south.png";
+		id = "assets/images/south.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
-		id = "assets/images/3_south2.png";
+		id = "assets/images/south2.png";
 		path.set (id, id);
 		
 		type.set (id, AssetType.IMAGE);
@@ -221,26 +221,26 @@ class DefaultAssetLibrary extends AssetLibrary {
 		className.set ("assets/data/lvl1.oep", __ASSET__assets_data_lvl1_oep);
 		type.set ("assets/data/lvl1.oep", AssetType.TEXT);
 		
-		className.set ("assets/images/3.png", __ASSET__assets_images_3_png);
-		type.set ("assets/images/3.png", AssetType.IMAGE);
+		className.set ("assets/images/diagdown.png", __ASSET__assets_images_diagdown_png);
+		type.set ("assets/images/diagdown.png", AssetType.IMAGE);
 		
-		className.set ("assets/images/3_diagdown.png", __ASSET__assets_images_3_diagdown_png);
-		type.set ("assets/images/3_diagdown.png", AssetType.IMAGE);
+		className.set ("assets/images/diagup.png", __ASSET__assets_images_diagup_png);
+		type.set ("assets/images/diagup.png", AssetType.IMAGE);
 		
-		className.set ("assets/images/3_diagup.png", __ASSET__assets_images_3_diagup_png);
-		type.set ("assets/images/3_diagup.png", AssetType.IMAGE);
+		className.set ("assets/images/down.png", __ASSET__assets_images_down_png);
+		type.set ("assets/images/down.png", AssetType.IMAGE);
 		
-		className.set ("assets/images/3_north.png", __ASSET__assets_images_3_north_png);
-		type.set ("assets/images/3_north.png", AssetType.IMAGE);
+		className.set ("assets/images/north.png", __ASSET__assets_images_north_png);
+		type.set ("assets/images/north.png", AssetType.IMAGE);
 		
-		className.set ("assets/images/3_side.png", __ASSET__assets_images_3_side_png);
-		type.set ("assets/images/3_side.png", AssetType.IMAGE);
+		className.set ("assets/images/side.png", __ASSET__assets_images_side_png);
+		type.set ("assets/images/side.png", AssetType.IMAGE);
 		
-		className.set ("assets/images/3_south.png", __ASSET__assets_images_3_south_png);
-		type.set ("assets/images/3_south.png", AssetType.IMAGE);
+		className.set ("assets/images/south.png", __ASSET__assets_images_south_png);
+		type.set ("assets/images/south.png", AssetType.IMAGE);
 		
-		className.set ("assets/images/3_south2.png", __ASSET__assets_images_3_south2_png);
-		type.set ("assets/images/3_south2.png", AssetType.IMAGE);
+		className.set ("assets/images/south2.png", __ASSET__assets_images_south2_png);
+		type.set ("assets/images/south2.png", AssetType.IMAGE);
 		
 		className.set ("assets/images/tilemap.png", __ASSET__assets_images_tilemap_png);
 		type.set ("assets/images/tilemap.png", AssetType.IMAGE);
@@ -916,13 +916,13 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:keep @:bind #if display private #end class __ASSET__assets_data_data_goes_here_txt extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_data_lvl1_oel extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_data_lvl1_oep extends null { }
-@:keep @:bind #if display private #end class __ASSET__assets_images_3_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_images_3_diagdown_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_images_3_diagup_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_images_3_north_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_images_3_side_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_images_3_south_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
-@:keep @:bind #if display private #end class __ASSET__assets_images_3_south2_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_diagdown_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_diagup_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_down_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_north_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_side_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_south_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
+@:keep @:bind #if display private #end class __ASSET__assets_images_south2_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_images_tilemap_png extends flash.display.BitmapData { public function new () { super (0, 0, true, 0); } }
 @:keep @:bind #if display private #end class __ASSET__assets_music_music_goes_here_txt extends null { }
 @:keep @:bind #if display private #end class __ASSET__assets_sounds_sounds_go_here_txt extends null { }
@@ -967,13 +967,13 @@ class DefaultAssetLibrary extends AssetLibrary {
 @:file("assets/data/data-goes-here.txt") #if display private #end class __ASSET__assets_data_data_goes_here_txt extends lime.utils.Bytes {}
 @:file("assets/data/lvl1.oel") #if display private #end class __ASSET__assets_data_lvl1_oel extends lime.utils.Bytes {}
 @:file("assets/data/lvl1.oep") #if display private #end class __ASSET__assets_data_lvl1_oep extends lime.utils.Bytes {}
-@:image("assets/images/3.png") #if display private #end class __ASSET__assets_images_3_png extends lime.graphics.Image {}
-@:image("assets/images/3_diagdown.png") #if display private #end class __ASSET__assets_images_3_diagdown_png extends lime.graphics.Image {}
-@:image("assets/images/3_diagup.png") #if display private #end class __ASSET__assets_images_3_diagup_png extends lime.graphics.Image {}
-@:image("assets/images/3_north.png") #if display private #end class __ASSET__assets_images_3_north_png extends lime.graphics.Image {}
-@:image("assets/images/3_side.png") #if display private #end class __ASSET__assets_images_3_side_png extends lime.graphics.Image {}
-@:image("assets/images/3_south.png") #if display private #end class __ASSET__assets_images_3_south_png extends lime.graphics.Image {}
-@:image("assets/images/3_south2.png") #if display private #end class __ASSET__assets_images_3_south2_png extends lime.graphics.Image {}
+@:image("assets/images/diagdown.png") #if display private #end class __ASSET__assets_images_diagdown_png extends lime.graphics.Image {}
+@:image("assets/images/diagup.png") #if display private #end class __ASSET__assets_images_diagup_png extends lime.graphics.Image {}
+@:image("assets/images/down.png") #if display private #end class __ASSET__assets_images_down_png extends lime.graphics.Image {}
+@:image("assets/images/north.png") #if display private #end class __ASSET__assets_images_north_png extends lime.graphics.Image {}
+@:image("assets/images/side.png") #if display private #end class __ASSET__assets_images_side_png extends lime.graphics.Image {}
+@:image("assets/images/south.png") #if display private #end class __ASSET__assets_images_south_png extends lime.graphics.Image {}
+@:image("assets/images/south2.png") #if display private #end class __ASSET__assets_images_south2_png extends lime.graphics.Image {}
 @:image("assets/images/tilemap.png") #if display private #end class __ASSET__assets_images_tilemap_png extends lime.graphics.Image {}
 @:file("assets/music/music-goes-here.txt") #if display private #end class __ASSET__assets_music_music_goes_here_txt extends lime.utils.Bytes {}
 @:file("assets/sounds/sounds-go-here.txt") #if display private #end class __ASSET__assets_sounds_sounds_go_here_txt extends lime.utils.Bytes {}
